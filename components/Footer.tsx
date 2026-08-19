@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer>
+    <footer className='text-base md:text-lg text-center text-text-light'>
       <h3>© 2026 Dobeen Kim made the tests</h3>
     </footer>
   )
