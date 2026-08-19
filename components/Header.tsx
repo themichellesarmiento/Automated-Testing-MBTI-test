@@ -2,7 +2,7 @@ import { BrainIcon } from 'lucide-react';
 
 const Header = () => {
   return (
-    <header className='flex gap-1 items-center'>
+    <header className='flex gap-1 items-center m-4'>
       <BrainIcon color='red' size={40} data-testid='brain-icon' />
       <div>
         <h1 className='text-lg md:text-2xl'>Personality Test</h1>

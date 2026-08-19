@@ -23,8 +23,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${hankenGrotesk.variable} h-full antialiased font-sans`}
     >
-      <body className="min-h-full">
-        <div className="px-4 max-w-[50rem] mx-auto">
+      <body className="min-h-full flex">
+        <div className="px-4 w-full mx-auto">
           <Header />
           {children}
           <Footer />
