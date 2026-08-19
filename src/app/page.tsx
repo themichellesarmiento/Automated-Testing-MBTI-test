@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <main>
+    <main className='flex-1'>
       {}
     </main>
   );

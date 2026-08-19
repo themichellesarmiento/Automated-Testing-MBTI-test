@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Hanken_Grotesk } from 'next/font/google'
 import "./globals.css";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const hankenGrotesk = Hanken_Grotesk({
   variable: '--font-hanken-grotesk',
@@ -22,8 +24,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${hankenGrotesk.variable} h-full antialiased font-sans`}
     >
       <body className="min-h-full">
-        <div className="px-4 max-w-[42rem] mx-auto">
+        <div className="px-4 max-w-[50rem] mx-auto">
+          <Header />
           {children}
+          <Footer />
         </div>
       </body>
     </html>
