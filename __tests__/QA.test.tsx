@@ -1,5 +1,5 @@
 import { fireEvent, render, screen} from '@testing-library/react'
-import QA from '../components/QA'
+import QA from '../components/QuestionAnswer'
 
 test ("Displays the current question number", () => {
     render(<QA currentNumber={0} selectAnswer={() => {}} />)

@@ -5,6 +5,7 @@
   --text-primary: #36311F;
   --text-light: #C9C9C9;
   --accent-one: #F78F3F;
+  --accent-two: #518CCA;
 }
 
 @theme inline {
@@ -12,6 +13,7 @@
   --color-text-primary: var(--text-primary);
   --color-text-light: var(--text-light);
   --color-accent-one: var(--accent-one);
+  --color-accent-two: var(--accent-two);
   --font-sans: var(--font-hanken-grotesk);
   --font-mono: var(--font-hanken-grotesk);
 }
