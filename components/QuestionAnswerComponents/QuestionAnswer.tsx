@@ -1,5 +1,5 @@
-import { QAProps } from "../types/mbti";
-import Item from "./QuestionAnswerComponents/Item";
+import { QAProps } from "../../types/mbti";
+import Item from "../QuestionAnswerComponents/Item";
 
 const QA = ({ currentNumber, selectAnswer, onPrev }: QAProps) => {
   return (
